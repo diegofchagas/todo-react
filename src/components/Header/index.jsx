@@ -1,12 +1,13 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
 import Form from '../Formulario'
+import { Container } from './style'
 const Header = () => {
   return (
-    <div>
-        <img src={logo} alt="" />
+    <Container>
+        <img src={logo} alt="foquete" />
         <Form/>
-    </div>
+    </Container>
   )
 }
 
