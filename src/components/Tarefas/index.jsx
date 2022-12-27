@@ -34,7 +34,7 @@ const Tarefas = ({tarefas, onDeletar, onRealizadas}) => {
           />
         ))}
 
-        {Tarefas.length <= 0 && (
+        {tarefas.length <= 0 && (
           <section className="quadro-aviso">
             <TbClipboardText size={50} />
             <div>

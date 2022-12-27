@@ -16,7 +16,7 @@ const Tarefa = ({ tarefa, onDeletar, onRealizadas }) => {
       </button>
 
       <p className={tarefa.completa ? "tarefa-feita" : ""}>{tarefa.titulo}</p>
-      <button className="btn" onClick={() => onDeletar(tarefa)}>
+      <button className="btn-deletar" onClick={() => onDeletar(tarefa)}>
         <TbTrash size={20} />
       </button>
     </ListaDeTarefas>

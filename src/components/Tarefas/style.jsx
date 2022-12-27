@@ -25,8 +25,24 @@ export const Container = styled.div`
     gap: 8px;
   }
 
-  .tarefa-concluida{
-    color:#8284fa;
+  .tarefas-controle p {
+    color: #4ea8de;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .tarefas-controle .tarefa-concluida {
+    color: #8284fa;
+  }
+
+  .tarefas-controle span {
+    padding: 3px 9px;
+    background-color: #333333;
+    color: #d9d9d9;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
   }
 
   .lista-tarefas {
@@ -36,15 +52,14 @@ export const Container = styled.div`
     margin-top: 1.5rem;
   }
 
-
-  .quadro-aviso{
+  .quadro-aviso {
     margin-top: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 1rem;
-  color: #808080;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: #808080;
+    text-align: center;
   }
 `;

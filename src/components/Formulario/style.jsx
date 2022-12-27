@@ -41,4 +41,5 @@ export const Formulario = styled.form`
     cursor: pointer;
     color: #f2f2f2;
   }
+
 `;

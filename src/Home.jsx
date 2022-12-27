@@ -5,6 +5,7 @@ import Tarefas from "./components/Tarefas";
 
 const Home = () => {
   const [tarefas, setTarefas] = useState([]);
+  console.log(tarefas)
 
   function addTarefas(input) {
     const novaTarefa = { id: Math.random(), titulo: input, completa: false };

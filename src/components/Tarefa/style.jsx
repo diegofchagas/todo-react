@@ -19,6 +19,13 @@ export const ListaDeTarefas = styled.div`
     cursor: pointer;
   }
 
+  .btn-deletar{
+    background: none;
+    border:none;
+    color: #808080;
+    cursor: pointer;
+  }
+
   .apurar {
     width: 100%;
     height: 100%;
