@@ -18,6 +18,7 @@ export const Formulario = styled.form`
     height: 100%;
     flex: 1;
     font-size: 1rem;
+    color: #F2F2F2;
   }
 
   .input::placeholder {
