@@ -22,7 +22,7 @@ export const ListaDeTarefas = styled.div`
   .btn-deletar{
     background: none;
     border:none;
-    color: #808080;
+    color: #996608;
     cursor: pointer;
   }
 

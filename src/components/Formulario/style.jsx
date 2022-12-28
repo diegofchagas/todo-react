@@ -18,7 +18,8 @@ export const Formulario = styled.form`
     height: 100%;
     flex: 1;
     font-size: 1rem;
-    color: #F2F2F2;
+    color: #f4f4f4;
+  
   }
 
   .input::placeholder {
@@ -28,7 +29,8 @@ export const Formulario = styled.form`
   }
 
   button {
-    background: #1e6f9f;
+    /* background: #1e6f9f; */
+    background: linear-gradient(#ffbf00, #f2a50c);
     height: 100%;
     padding: 0 1rem;
     border: none;
@@ -39,7 +41,14 @@ export const Formulario = styled.form`
     font-weight: 700;
     font-size: 0.875rem;
     cursor: pointer;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #332200;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  button:hover{
+    background: linear-gradient(#ffb60d, #e59317);
   }
 
 `;

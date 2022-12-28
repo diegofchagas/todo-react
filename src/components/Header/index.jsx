@@ -7,7 +7,8 @@ import { Container } from './style'
 const Header = ({onAdicionarTarefas}) => {
   return (
     <Container>
-        <img src={logo} alt="foquete" />
+        {/* <img src={logo} alt="foquete" /> */}
+        <h1>Todo List</h1>
         <Form onAdicionarTarefas={onAdicionarTarefas}/>
     </Container>
   )

@@ -26,14 +26,16 @@ export const Container = styled.div`
   }
 
   .tarefas-controle p {
-    color: #4ea8de;
+    color: #ffbb00;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
   }
 
   .tarefas-controle .tarefa-concluida {
-    color: #8284fa;
+    color: #e4a30b;
+    
+    
   }
 
   .tarefas-controle span {
