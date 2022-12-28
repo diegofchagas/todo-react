@@ -1,17 +1,14 @@
-import React from 'react'
-import logo from '../../assets/logo.svg'
-import Form from '../Formulario'
-import { Container } from './style'
+import React from "react";
+import Form from "../Formulario";
+import { Container } from "./style";
 
-
-const Header = ({onAdicionarTarefas}) => {
+const Header = ({ onAdicionarTarefas }) => {
   return (
     <Container>
-        {/* <img src={logo} alt="foquete" /> */}
-        <h1>Todo List</h1>
-        <Form onAdicionarTarefas={onAdicionarTarefas}/>
+      <h1>Todo List</h1>
+      <Form onAdicionarTarefas={onAdicionarTarefas} />
     </Container>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

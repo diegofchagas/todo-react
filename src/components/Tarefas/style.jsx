@@ -34,8 +34,6 @@ export const Container = styled.div`
 
   .tarefas-controle .tarefa-concluida {
     color: #e4a30b;
-    
-    
   }
 
   .tarefas-controle span {

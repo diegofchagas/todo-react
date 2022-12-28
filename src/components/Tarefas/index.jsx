@@ -1,12 +1,11 @@
 import React from "react";
 import { TbClipboardText } from "react-icons/tb";
 import { Container } from "./style";
-import Tarefa from "../Tarefa"
+import Tarefa from "../Tarefa";
 
-
-const Tarefas = ({tarefas, onDeletar, onRealizadas}) => {
-    const qtdTarefas = tarefas.length
-    const tarefasConcluidas = tarefas.filter((tarefa)=> tarefa.completa).length
+const Tarefas = ({ tarefas, onDeletar, onRealizadas }) => {
+  const qtdTarefas = tarefas.length;
+  const tarefasConcluidas = tarefas.filter((tarefa) => tarefa.completa).length;
 
   return (
     <Container>

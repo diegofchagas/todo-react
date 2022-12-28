@@ -19,9 +19,9 @@ export const ListaDeTarefas = styled.div`
     cursor: pointer;
   }
 
-  .btn-deletar{
+  .btn-deletar {
     background: none;
-    border:none;
+    border: none;
     color: #996608;
     cursor: pointer;
   }
